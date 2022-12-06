@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import newLogo from '../public/Logo2.png'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image ></Image>
+        <Image src={newLogo} styles={{ width: '25px', height: '30px' }}></Image>
       </main>
 
       <footer className={styles.footer}>
