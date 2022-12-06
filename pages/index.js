@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import newLogo from '../public/Logo2.png'
+import newLogo from '../public/Tucker.jpg'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
